@@ -1,0 +1,14 @@
+{
+  "name": "talkland-ai-tester",
+  "version": "1.0.0",
+  "description": "TalkLand BoxPVP Minecraft server status and log checker Discord bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "minecraft-server-util": "^5.4.4",
+    "dotenv": "^16.4.7"
+  }
+}
